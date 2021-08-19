@@ -14,3 +14,5 @@ cd ipinfo
 chmod +x install.sh
  
 ./install.sh
+ 
+para executar digite: ./ipinfo.sh
