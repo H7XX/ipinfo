@@ -6,6 +6,7 @@ menu="
 {1} kali linux
 {2} termux
 "
+echo "$menu"
 
 read -p "instalar para: " platform
         1)
