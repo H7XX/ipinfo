@@ -1,14 +1,27 @@
-
 #!/bin/bash
 
-clear
+figlet install
 
-figlet instalando. . .
+menu="
+{1} kali linux
+{2} termux
+"
 
-sudo apt-get install figlet curl wget -y
+read -p "instalar para: " platform
+        1)
+                clear
+                echo "instalando..."
+                sudo apt-get install figlet wget curl -y
+                echo "instalação completa"
+        ;;
 
-chmod +x ipinfo.sh
+        2)
+                clear
+                echo "instalando..."
+                pkg install wget
+                pkg install figlet
+                pkg install curl
+                echo "instalação completa"
+        ;;
 
-clear
-
-echo "instalação completa"
+esac
