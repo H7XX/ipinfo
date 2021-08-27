@@ -9,7 +9,7 @@ menu="
 echo "$menu"
 
 read -p "instalar para: " platform
-case "platform" in
+case "$platform" in
         1)
                 clear
                 echo "instalando..."
