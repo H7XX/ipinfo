@@ -14,6 +14,7 @@ case "$platform" in
                 clear
                 echo "instalando..."
                 sudo apt-get install figlet wget curl -y
+                chmod +x ipinfo.sh
                 echo "instalação completa"
         ;;
 
@@ -23,6 +24,7 @@ case "$platform" in
                 pkg install wget
                 pkg install figlet
                 pkg install curl
+                chmod +x ipinfo.sh
                 echo "instalação completa"
         ;;
 
