@@ -18,7 +18,7 @@ Esse script rastreia ip
 
 + apt-get install git
  
-+ git clone https://github.com/ipinfo/
++ git clone https://github.com/H7XX/ipinfo/
  
 + cd ipinfo
  
@@ -33,7 +33,7 @@ para executar:
 
 + pkg install git
  
-+ git clone https://github.com/ipinfo/
++ git clone https://github.com/H7XX/ipinfo/
  
 + cd ipinfo
  
